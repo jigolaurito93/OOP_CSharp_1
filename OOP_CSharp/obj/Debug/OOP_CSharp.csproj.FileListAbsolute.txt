@@ -1,0 +1,7 @@
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\bin\Debug\OOP_CSharp.exe.config
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\bin\Debug\OOP_CSharp.exe
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\bin\Debug\OOP_CSharp.pdb
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\obj\Debug\OOP_CSharp.csproj.AssemblyReference.cache
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\obj\Debug\OOP_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\obj\Debug\OOP_CSharp.exe
+C:\Users\j.laurito\Documents\Dev Tools\Repos\C#\OOP_CSharp\OOP_CSharp\obj\Debug\OOP_CSharp.pdb
