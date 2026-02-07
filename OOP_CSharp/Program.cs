@@ -45,7 +45,7 @@ namespace OOP_CSharp
             Console.WriteLine(customer1.Name);
             Console.WriteLine(customer1.Address);
             Console.WriteLine(customer1.ContactNumber);
-            */
+            
 
             // Constructor with default/optional parameter
             Employee employee1 = new Employee("James");
@@ -58,8 +58,17 @@ namespace OOP_CSharp
             Console.WriteLine(employee1.Name);
             Console.WriteLine(employee1.EmployeeID);
             Console.WriteLine(employee1.Department);
+            */
 
+            // Named parameters
+            // Different ways to write it
+            Math math1 = new Math();
 
+            Console.WriteLine(math1.AddNum(1, 5));
+            Console.WriteLine(math1.AddNum(num1: 1, 5));
+            Console.WriteLine(math1.AddNum(1, num2: 5));
+            Console.WriteLine(math1.AddNum(num1: 1, num2: 5));
+            Console.WriteLine(math1.AddNum(num2: 5, num1: 1));
 
 
 
