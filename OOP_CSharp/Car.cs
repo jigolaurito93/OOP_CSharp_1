@@ -10,6 +10,7 @@ namespace OOP_CSharp
     {
         // member variable
         // private hides the variable from other classes
+        // These are backing fields
         private string _model;
         private string _brand;
         private int _year;

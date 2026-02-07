@@ -11,13 +11,22 @@ namespace OOP_CSharp
         static void Main(string[] args)
         {
             //Creating an object/instance of the Class Car
+            /*
             Car honda = new Car("Civic", "Honda", true, 190);
             Car hyundai = new Car("Santa Fe", "Hyundai", false, 1976);
+            */
 
             // Getting the Brand
-            Console.WriteLine("Brand is " + honda.Brand);
+            /*
+             Console.WriteLine("Brand is " + honda.Brand);
             Console.WriteLine("Brand is  "  + hyundai.Brand);
             Console.Read();
+            */
+
+            Customer johnny = new Customer("John");
+            Customer jack = new Customer("Jack", "123 Fake Street", "123-456-7890");
+            Console.WriteLine(johnny.Name);
+            Console.WriteLine(jack.Address);
         }
     }
 }
