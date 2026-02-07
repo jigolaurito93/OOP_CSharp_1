@@ -37,7 +37,7 @@ namespace OOP_CSharp
 
             Car mazda = new Car("CX7", "Mazda", false, 1947);
             mazda.Drive();
-            */
+            
 
             // Default object with no arguments
             Customer customer1 = new Customer();
@@ -45,6 +45,24 @@ namespace OOP_CSharp
             Console.WriteLine(customer1.Name);
             Console.WriteLine(customer1.Address);
             Console.WriteLine(customer1.ContactNumber);
+            */
+
+            // Constructor with default/optional parameter
+            Employee employee1 = new Employee("James");
+            Console.WriteLine(employee1.Name);
+            Console.WriteLine(employee1.EmployeeID);
+            Console.WriteLine(employee1.Department);
+
+            // Method with default/optional parameter
+            employee1.setDetails("Nate", "2346534645");
+            Console.WriteLine(employee1.Name);
+            Console.WriteLine(employee1.EmployeeID);
+            Console.WriteLine(employee1.Department);
+
+
+
+
+
             Console.ReadKey();
 
 
