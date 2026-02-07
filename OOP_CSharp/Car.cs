@@ -66,5 +66,10 @@ namespace OOP_CSharp
             IsLuxury = isLuxury;
             Year = year;
         }
+
+        public void Drive()
+        {
+            Console.WriteLine("Im driving my " + Year + " " +  Brand + " " + Model);
+        }
     }
 }

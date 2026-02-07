@@ -21,7 +21,7 @@ namespace OOP_CSharp
              Console.WriteLine("Brand is " + honda.Brand);
             Console.WriteLine("Brand is  "  + hyundai.Brand);
             Console.Read();
-            */
+            
 
             Customer johnny = new Customer("John");
             Customer jack = new Customer("Jack", "123 Fake Street", "123-456-7890");
@@ -33,6 +33,14 @@ namespace OOP_CSharp
             Console.WriteLine("Please enter customers name.");
             newCustomer.Name = Console.ReadLine();
             Console.WriteLine("Details about customer: " + newCustomer.Name);
+            */
+
+            Car mazda = new Car("CX7", "Mazda", false, 1947);
+            mazda.Drive();
+
+            Console.ReadKey();
+
+
         }
     }
 }
