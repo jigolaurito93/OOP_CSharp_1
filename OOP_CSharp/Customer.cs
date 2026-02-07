@@ -33,5 +33,12 @@ namespace OOP_CSharp
             Address = "Default Address";
             ContactNumber = "Default Contact Number";
         }
+
+        public void SetDetails(string name, string address, string contactNumber)
+        {
+            Name = name;
+            Address = address;
+            ContactNumber = contactNumber;
+        }
     }
 }

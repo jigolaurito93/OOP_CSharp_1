@@ -33,11 +33,18 @@ namespace OOP_CSharp
             Console.WriteLine("Please enter customers name.");
             newCustomer.Name = Console.ReadLine();
             Console.WriteLine("Details about customer: " + newCustomer.Name);
-            */
+            
 
             Car mazda = new Car("CX7", "Mazda", false, 1947);
             mazda.Drive();
+            */
 
+            // Default object with no arguments
+            Customer customer1 = new Customer();
+            customer1.SetDetails("Jean", "234 True Street", "1234567890");
+            Console.WriteLine(customer1.Name);
+            Console.WriteLine(customer1.Address);
+            Console.WriteLine(customer1.ContactNumber);
             Console.ReadKey();
 
 
