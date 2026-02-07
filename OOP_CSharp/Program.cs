@@ -27,6 +27,12 @@ namespace OOP_CSharp
             Customer jack = new Customer("Jack", "123 Fake Street", "123-456-7890");
             Console.WriteLine(johnny.Name);
             Console.WriteLine(jack.Address);
+
+            // Default Customer with no arguments provided
+            Customer newCustomer = new Customer();
+            Console.WriteLine("Please enter customers name.");
+            newCustomer.Name = Console.ReadLine();
+            Console.WriteLine("Details about customer: " + newCustomer.Name);
         }
     }
 }

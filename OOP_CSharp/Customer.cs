@@ -20,9 +20,18 @@ namespace OOP_CSharp
             ContactNumber = contactNumber;
         }
 
+        // Custom Constructor
         public Customer(string name)
         {
             Name = name;   
+        }
+
+        // Default Constructor
+        public Customer()
+        {
+            Name = "Default Name";
+            Address = "Default Address";
+            ContactNumber = "Default Contact Number";
         }
     }
 }
