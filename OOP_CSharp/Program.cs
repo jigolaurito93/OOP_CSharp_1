@@ -10,7 +10,14 @@ namespace OOP_CSharp
     {
         static void Main(string[] args)
         {
-            Car car1 = new Car();
+            //Creating an object/instance of the Class Car
+            Car honda = new Car("Civic", "Honda");
+            Car hyundai = new Car("Santa Fe", "Hyundai");
+
+            honda.Model = "Jazz";
+            Console.WriteLine(honda.Model);
+
+            Console.Read();
         }
     }
 }
