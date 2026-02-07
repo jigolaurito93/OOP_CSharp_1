@@ -12,12 +12,23 @@ namespace OOP_CSharp
         // private hides the variable from other classes
         private string _model;
         private string _brand;
+        private bool _isLuxury;
 
         //Property
         public string Model { get => _model; set => _model = value; }
         public string Brand
         {
-            get => _brand;
+            get 
+            { 
+                if (_isLuxury)
+                {
+                    return _brand + "- Luxury Edition";
+                }
+                else
+                {
+                    return _brand;
+                }
+            }
             set { 
                 if (string.IsNullOrEmpty(value))
                 {
@@ -30,12 +41,14 @@ namespace OOP_CSharp
                 }
                 }
         }
+        public bool IsLuxury { get => _isLuxury; set => _isLuxury = value; }
 
         //Constructor
-        public Car(string model, string brand)
+        public Car(string model, string brand, bool isLuxury)
         {
             Model = model;
             Brand = brand;
+            IsLuxury = isLuxury;
         }
     }
 }
