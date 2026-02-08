@@ -58,7 +58,7 @@ namespace OOP_CSharp
             Console.WriteLine(employee1.Name);
             Console.WriteLine(employee1.EmployeeID);
             Console.WriteLine(employee1.Department);
-            */
+          
 
             // Named parameters
             // Different ways to write it
@@ -66,11 +66,26 @@ namespace OOP_CSharp
 
             Console.WriteLine(math1.AddNum(1, 5));
             Console.WriteLine(math1.AddNum(num1: 1, 5));
-            Console.WriteLine(math1.AddNum(1, num2: 5));
+            Console.WriteLin e(math1.AddNum(1, num2: 5));
             Console.WriteLine(math1.AddNum(num1: 1, num2: 5));
             Console.WriteLine(math1.AddNum(num2: 5, num1: 1));
+              
 
+            // Passing arguments by Value and Reference
+            void ModifyValue(ref int num)
+            {
+                num = 100; // Change affects the original variable
+            }
 
+            int number = 50;
+            ModifyValue(ref number);
+            Console.WriteLine(number); // Output: 100 (modified)
+            */
+
+            Rectangle r1 = new Rectangle();
+            r1.Height = 5;
+            r1.Width = 5;
+            Console.WriteLine("The area of r1 is: " + r1.Area);
 
             Console.ReadKey();
 
