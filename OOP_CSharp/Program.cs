@@ -86,15 +86,51 @@ namespace OOP_CSharp
             r1.Height = 5;
             r1.Width = 5;
             Console.WriteLine("The area of r1 is: " + r1.Area);
-            */
+            
 
             // Using Static
-            // Can use this method even without creating an object instance
+            // It is used to declare members of the class that belongs to the class itself
+            // rather than to any specific instance of the class
             Customer.DoSomeCustomerStuff();
+            
+
+            // Example of static field where you can access a field through the class itself, not from an object
+            Car car1 = new Car();
+            Car car2 = new Car();
+            Car car3 = new Car();
+
+            Console.WriteLine(Car.numberOfCars);
+            
+
+            Animal myPet = new Dog();
+
+            if (myPet is Animal)
+            {
+                Console.WriteLine("myPet is a Dog");
+            }
+            else
+            {
+                Console.WriteLine("myPet is not a Dog");
+            }
+            */
+
+            // Accessing ID Key
+            Customer cust1 = new Customer("Mitch");
+            Customer cust2 = new Customer("Joan");
+            Customer cust3 = new Customer();
+            cust1.getDetails();
+            cust2.getDetails();
+            cust3.getDetails();
 
             Console.ReadKey();
-
-
         }
     }
+
+    class Animal { }
+
+    class Dog : Animal {}
+
+    
+
+
 }
