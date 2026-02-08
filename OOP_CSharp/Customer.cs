@@ -12,12 +12,20 @@ namespace OOP_CSharp
         private static int nextId = 0;
         // Read-only instance field initialized from the constructor
         private readonly int _id;
+        // Private Password Field
+        private string _password;
 
         // Read Only Property
         // Omitting the setter
         public int Id { 
             get
             { return _id; }
+        }
+        // Write Only Property
+        // Omitting the getter
+        public string Password
+        {
+            set { _password = value; }
         }
         public string Name { get; set; }
         public string Address { get; set; }
@@ -65,7 +73,7 @@ namespace OOP_CSharp
 
         public void getDetails()
         {
-            Console.WriteLine($"Details about the customer: Name is {Name} and ID is {_id}");
+            Console.WriteLine($"Details about the customer: Name is {Name} and password is {_password}");
         }
     }
 }

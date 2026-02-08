@@ -120,10 +120,12 @@ namespace OOP_CSharp
             Customer cust3 = new Customer();
             cust1.getDetails();
             cust2.getDetails();
+
+            //Console.WriteLine("Customer 1 ID no. is: " + cust1.Id);
+            //Console.WriteLine("Customer 2 ID no. is: " + cust2.Id);
+            cust3.Password = "123password$%^";
             cust3.getDetails();
 
-            Console.WriteLine("Customer 1 ID no. is: " + cust1.Id);
-            Console.WriteLine("Customer 2 ID no. is: " + cust2.Id);
 
             Console.ReadKey();
         }
