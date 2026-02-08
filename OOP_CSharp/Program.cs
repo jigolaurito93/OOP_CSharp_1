@@ -114,13 +114,16 @@ namespace OOP_CSharp
             }
             */
 
-            // Accessing ID Key
+            // Accessing ID Key with incrementing ID number from a readonly private field
             Customer cust1 = new Customer("Mitch");
             Customer cust2 = new Customer("Joan");
             Customer cust3 = new Customer();
             cust1.getDetails();
             cust2.getDetails();
             cust3.getDetails();
+
+            Console.WriteLine("Customer 1 ID no. is: " + cust1.Id);
+            Console.WriteLine("Customer 2 ID no. is: " + cust2.Id);
 
             Console.ReadKey();
         }

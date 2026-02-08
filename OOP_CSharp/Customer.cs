@@ -13,6 +13,12 @@ namespace OOP_CSharp
         // Read-only instance field initialized from the constructor
         private readonly int _id;
 
+        // Read Only Property
+        // Omitting the setter
+        public int Id { 
+            get
+            { return _id; }
+        }
         public string Name { get; set; }
         public string Address { get; set; }
         public string ContactNumber { get; set; }
