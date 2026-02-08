@@ -112,7 +112,7 @@ namespace OOP_CSharp
             {
                 Console.WriteLine("myPet is not a Dog");
             }
-            */
+            
 
             // Accessing ID Key with incrementing ID number from a readonly private field
             Customer cust1 = new Customer("Mitch");
@@ -125,7 +125,13 @@ namespace OOP_CSharp
             //Console.WriteLine("Customer 2 ID no. is: " + cust2.Id);
             cust3.Password = "123password$%^";
             cust3.getDetails();
+            */
 
+            // Const and Readonly Field in Rectangle Class
+            Rectangle rectangle1 = new Rectangle("Blue");
+            rectangle1.Height = 5;
+            rectangle1.Width = 2;
+            rectangle1.DisplayDetails();
 
             Console.ReadKey();
         }
