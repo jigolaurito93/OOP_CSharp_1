@@ -40,5 +40,9 @@ namespace OOP_CSharp
             Address = address;
             ContactNumber = contactNumber;
         }
+        public static void DoSomeCustomerStuff()
+        {
+            Console.WriteLine("I'm doing some customer stuff!");
+        }
     }
 }

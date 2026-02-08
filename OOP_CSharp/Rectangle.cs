@@ -10,14 +10,16 @@ namespace OOP_CSharp
     {
         public double Width { get; set; }
         public double Height { get; set; }
-        // Computed Property
+        // Computed Properties and No Constructor
         public double Area 
-        { 
+        {
+            // Only has a getter, this is Read Only and 
+            // you can't set a value on an object since there is no setter
             get
             {
                 return Width * Height;
             }
-                
+            // No setter here   
         }
     }
 }

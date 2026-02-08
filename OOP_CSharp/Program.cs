@@ -80,12 +80,17 @@ namespace OOP_CSharp
             int number = 50;
             ModifyValue(ref number);
             Console.WriteLine(number); // Output: 100 (modified)
-            */
+            
 
             Rectangle r1 = new Rectangle();
             r1.Height = 5;
             r1.Width = 5;
             Console.WriteLine("The area of r1 is: " + r1.Area);
+            */
+
+            // Using Static
+            // Can use this method even without creating an object instance
+            Customer.DoSomeCustomerStuff();
 
             Console.ReadKey();
 
